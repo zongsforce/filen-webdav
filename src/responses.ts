@@ -41,7 +41,7 @@ export class Responses {
 							"D:prop": {
 								"D:getlastmodified": lastModified,
 								"D:lastmodified": lastModified,
-								"D:displayname": encodeURIComponent(resource.name),
+								"D:displayname": resource.name,
 								"D:getcontentlength": resource.type === "directory" ? 0 : resource.size,
 								"D:getetag": resource.uuid,
 								"D:creationdate": creationDate,
