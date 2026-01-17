@@ -24,7 +24,7 @@
 		"filen"
 	],
 	"engines": {
-		"node": ">=20"
+		"node": ">=18"
 	},
 	"author": "Filen",
 	"license": "AGPLv3",
